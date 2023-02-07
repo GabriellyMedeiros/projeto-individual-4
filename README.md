@@ -31,6 +31,6 @@ O principal campo da tabela aluno: cpf varchar(15).
 
 ⇨ Como essas entidades estão relacionadas?
 Curso para turma: (0,n)
-Turma para curso:
-Turma para aluno:
-Aluno para turma:
+Turma para curso: (0,1)
+Turma para aluno: (0,n)
+Aluno para turma: (0,1)
