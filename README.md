@@ -20,3 +20,17 @@ Alunos:
 - celular varchar(15),
 - cpf varchar(15) primary key,
 - endereco varchar(50);
+
+⇨ Existem outras entidades além dessas três?
+Sim, existem.
+
+⇨ Quais são os principais campos e tipos?
+O principal campo da tabela curso: id curso int.
+O principal campo da tabela turma: numero da turma int.
+O principal campo da tabela aluno: cpf varchar(15).
+
+⇨ Como essas entidades estão relacionadas?
+Curso para turma: (0,n)
+Turma para curso:
+Turma para aluno:
+Aluno para turma:
